@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <form id="home-form'"  action ="/auth/login" method="post">
+        <input type="text" id ="name" name="name">
+        <input type="email" id ="email" name="email">
+        <input type="password" id="password" name ="password">
+
+        <input type="submit" id="login-button" name="Login" title="Log in" formaction="/auth/login" formmethod="post">
+         <input type="submit" id="Register-button" name="Login" title="Log in" formaction="/auth/register" formmethod="post">
+
+    </form>
+{% endblock %}
