@@ -4,7 +4,8 @@ import pymongo
 
 
 class Database(object):
-    URI="mongodb://127.0.0.1:27017"
+    #URI="mongodb://127.0.0.1:27017"  172.21.107.87
+    URI = "mongodb://root:root@mongo:27017/kalptreedb"
     DATABASE= None
 
     @staticmethod
